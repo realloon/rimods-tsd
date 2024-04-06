@@ -1,0 +1,9 @@
+@import './base.css';
+
+:root {
+  --theme: #1e2837;
+}
+
+body {
+  font-family: var(--serif);
+}

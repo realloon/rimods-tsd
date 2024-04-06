@@ -1,0 +1,24 @@
+:root {
+  --serif: 'Times New Roman', ui-serif, serif;
+  --page: #fff;
+  --font: #333;
+}
+
+body {
+  background-color: var(--page);
+  color: var(--font);
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: unset;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
